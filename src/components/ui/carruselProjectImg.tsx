@@ -2,7 +2,6 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import { MdArrowBack, MdArrowForward } from "react-icons/md";
 import Image from "next/image";
 
 // Tipado de las props para el componente Carrusel
@@ -11,8 +10,7 @@ interface CarouselProps {
 }
 
 const ImageCarousel: React.FC<CarouselProps> = ({ images }) => {
-	console.log(images);
-	
+
 	// Configuración para el carrusel
 	const settings = {
 		dots: true, // Muestra puntos de navegación
