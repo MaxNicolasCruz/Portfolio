@@ -1,0 +1,107 @@
+{
+	"header": {
+		"name": "Cruz Max Nicolás",
+		"rol": "Full Stack Web Developer",
+		"cvButton": "Resume"
+	},
+	"main": {
+		"projectsButton": "Projects",
+		"aboutMeButton": "About Me",
+		"skillsButton": "Skills",
+		"contactButton": "Contact"
+	},
+	"projectCard": {
+		"remiseria": {
+			"name": "Remiseria",
+			"description": "It is a network for taxi service providers and clients to chat, a personal project to practice my React skills and explore some new technologies.",
+			"img": "/remiseriaImg",
+			"technologies": [
+				"ReactJs",
+				"NodeJs",
+				"TailwindCSS",
+				"SocketIo",
+				"MySQL",
+				"JWT",
+				"axios",
+				"ExpressJS",
+				"Figma",
+				"GitHub",
+				"Sequelize"
+			],
+			"link": "https://github.com/MaxNicolasCruz/Project_Remiseria"
+		},
+		"7ecnoShop": {
+			"name": "7ecnoShop",
+			"description": "Project carried out using the Scrum methodology in a group setting, simulating a work environment.",
+			"img": "/7ecnoShopImg",
+			"technologies": [
+				"NodeJs",
+				"CSS",
+				"MySQL",
+				"ExpressJS",
+				"JavaScript",
+				"HTML5",
+				"Sequelize"
+			],
+			"link": "https://github.com/Sonqo-Toconas/grupo_9_7ecnoShop"
+		},
+		"Challenge-DH": {
+			"name": "Challenge-DH",
+			"description": "This project simulates being a multinational Human Resources Recruiting company, aimed at placing candidates in job positions",
+			"img": "/challengeDHImg",
+			"technologies": [
+				"ReactJs",
+				"NodeJs",
+				"BootStrapCSS",
+				"MySQL",
+				"ExpressJS",
+				"Sequelize"
+			],
+			"link": "https://github.com/Sonqo-Toconas/challenge-DH"
+		},
+		"Mercado-Liebre": {
+			"name": "Mercado-Liebre",
+			"description": "A project replicating the responsive style of Mercado Libre.",
+			"img": "/mercadoLiebreImg",
+			"technologies": [
+				"Git",
+				"HTML5",
+				"CSS",
+				"ExpressJS",
+				"JavaScript",
+				"NodeJs"
+			],
+			"link": "https://github.com/MaxNicolasCruz/Mercado_Liebre"
+		},
+		"Tournament-Simulator": {
+			"name": "Tournament-Simulator",
+			"description": "A game to complement my learning with Python.",
+			"img": "/tournamentSimulatorImg",
+			"technologies": ["Python", "Tkinter"],
+			"link": "https://github.com/MaxNicolasCruz/Tournament_Simulator"
+		}
+	},
+	"aboutMeBox": {
+		"meTitle": "Me",
+		"meDescription": "I really enjoy learning and developing web applications. I care about delivering a quality product with good programming practices. I am good at working in a team; dedication and a positive attitude are my main drivers..",
+		"educationTitle": "Education",
+		"educationDescription": {
+			"digitalHouse": {
+				"name": "Digital House",
+				"certificate": "Developer Web Full Stack",
+				"duration": "04/2023 - 12/2023"
+			},
+			"EscuelaDeComercioN1JoséManuelEstrada": {
+				"name": "Escuela de Comercio N°1 José Manuel Estrada",
+				"certificate": "Bachillerato",
+				"duration": "04/2022 - 12/2024"
+			}
+		},
+		"meContact": "Contacto"
+	},
+	"skillsBox": {
+		"frontEndTitle": "Front End",
+		"backEndTitle": "Back End",
+		"learningTitle": "Learning"
+	}
+}
