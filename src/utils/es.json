@@ -29,6 +29,19 @@
 			],
 			"link": "https://github.com/MaxNicolasCruz/Project_Remiseria"
 		},
+		"Clinical-Lab": {
+			"name": "Clinical Lab",
+			"description": "Proyecto freelance que consistió en migrar una aplicación de escritorio del año 1999 a una aplicación web moderna.",
+			"img": "/clinicalLab",
+			"technologies": [
+				"ReactJs",
+				"NodeJs",
+				"MariaDB",
+				"Sequelize",
+				"Python"
+			],
+			"link": "Privado"
+		},
 		"7ecnoShop": {
 			"name": "7ecnoShop",
 			"description": "Proyecto realizado con la metodología scrum en forma grupal, simulando el ambiente laboral.",

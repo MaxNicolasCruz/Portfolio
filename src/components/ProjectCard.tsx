@@ -60,14 +60,14 @@ function ProjectCard({
 							<MdCancel className="text-2xl text-slate-400 hover:text-white dark:text-blue-sky-primary dark:hover:text-gray-600 dark:hover:scale-110" />
 						</span>
 						<ImageCarousel images={images} />
-						<h3 className="mt-4 text-xl font-semibold">{name}</h3>
-						<p className="mt-2">{description}</p>
-						<h4 className="mt-4 font-semibold">Technologies:</h4>
-						<div className="flex flex-wrap gap-2 mt-2">
-							{technologies.map((tech) => (
-								<span key={tech}>{getTechnologyIcon(tech)}</span>
-							))}
-						</div>
+							<h3 className="mt-4 text-xl font-semibold">{name}</h3>
+							<p className="mt-2">{description}</p>
+							<h4 className="mt-4 font-semibold">Technologies:</h4>
+							<div className="flex flex-wrap gap-2 mt-2">
+								{technologies.map((tech) => (
+									<span key={tech}>{getTechnologyIcon(tech)}</span>
+								))}
+							</div>
 						<div>
 							<h3 className="mt-4 text-xl font-semibold">Link: </h3>
 

@@ -96,7 +96,7 @@ export default function Home() {
 	}, [language]);
 
 	const viewCV = () => {
-		const cvPath = "/Cruz Max Nicolas CV-V2.pdf";
+		const cvPath = "/Cruz Max Nicolas CV-V3_1.pdf";
 		window.open(cvPath, "_blank");
 	};
 

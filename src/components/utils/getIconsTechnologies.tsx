@@ -13,6 +13,7 @@ import {
 	SiHtml5,
 	SiGit,
 	SiPython,
+	SiMariadbfoundation
 } from "react-icons/si";
 import { RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
 
@@ -53,6 +54,10 @@ function getTechnologyIcon(techName: string) {
 			return <SiExpress className="text-gray-700 text-2xl" />;
 		case "sequelize":
 			return <SiSequelize className="text-indigo-600 text-2xl" />;
+		case "mariadb":
+			return <SiMariadbfoundation className="text-white-500 text-2xl" />;
+		case "nextjs":
+			return <RiNextjsFill />
 		default:
 			return null;
 	}

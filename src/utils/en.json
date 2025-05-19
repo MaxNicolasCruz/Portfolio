@@ -30,6 +30,19 @@
 			],
 			"link": "https://github.com/MaxNicolasCruz/Project_Remiseria"
 		},
+		"Clinical-Lab": {
+			"name": "Clinical Lab",
+				"description": "Freelance project involving the migration of a 1999 desktop application to a modern web platform.",
+			"img": "/clinicalLab",
+			"technologies": [
+				"ReactJs",
+				"NodeJs",
+				"MariaDB",
+				"Sequelize",
+				"Python"
+			],
+			"link": "Private"
+		},
 		"7ecnoShop": {
 			"name": "7ecnoShop",
 			"description": "Project carried out using the Scrum methodology in a group setting, simulating a work environment.",

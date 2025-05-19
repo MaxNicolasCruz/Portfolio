@@ -19,12 +19,16 @@ const ImageCarousel: React.FC<CarouselProps> = ({ images }) => {
 		slidesToShow: 1, // Número de imágenes visibles a la vez
 		slidesToScroll: 1, // Número de imágenes que se desplazan al cambiar
 		autoplay: true, // Reproducción automática
-		autoplaySpeed: 3000, // Tiempo entre cada desplazamiento en ms
+		autoplaySpeed: 1000, // Tiempo entre cada desplazamiento en ms
 	};
 
 	return (
 		<div className="max-w-3xl mx-auto my-6">
-			<Slider {...settings}>
+			{images.length === 0 ?
+			(
+				<h2 className="font-bold text-red-500 text-center">NOT FOUND IMAGES</h2>
+			) : (
+				<Slider {...settings}>
 				{images.map((image, index) => (
 					<div key={index} className="p-2">
 						<Image
@@ -39,6 +43,8 @@ const ImageCarousel: React.FC<CarouselProps> = ({ images }) => {
 					</div>
 				))}
 			</Slider>
+			) }
+			
 		</div>
 	);
 };
