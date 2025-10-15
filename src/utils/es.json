@@ -1,100 +1,103 @@
 {
 	"header": {
+		"greeting": "Hola, soy",
 		"name": "Cruz Max Nicolás",
 		"rol": "Desarrollador Web Full Stack",
-		"cvButton": "CV"
+		"cvButton": "CV",
+		"description": "Apasionado por la tecnología y el desarrollo web, siempre en busca de nuevos desafíos y aprendizajes.",
+		"contactButton": "Contacto",
+		"projectButton": "Proyectos"
 	},
 	"main": {
-		"projectsButton": "Proyectos",
-		"aboutMeButton": "Sobre Mí",
-		"skillsButton": "Habilidades"
+		"homeButton": "Inicio",
+		"aboutMeButton": "Perfil",
+		"projectButton": "Proyectos",
+		"contactButton": "Contacto"
 	},
 	"projectCard": {
-		"remiseria": {
-			"name": "Remiseria",
-			"description": "Es una red para proveedores de servicios de taxi y clientes para chatear, un proyecto personal para practicar mis habilidades en React y explorar algunas tecnologías nuevas.",
-			"img": "/remiseriaImg",
-			"technologies": [
-				"ReactJs",
-				"NodeJs",
-				"TailwindCSS",
-				"SocketIo",
-				"MySQL",
-				"JWT",
-				"axios",
-				"ExpressJS",
-				"Figma",
-				"GitHub",
-				"Sequelize"
-			],
-			"link": "https://github.com/MaxNicolasCruz/Project_Remiseria"
-		},
-		"Clinical-Lab": {
-			"name": "Clinical Lab",
-			"description": "Proyecto freelance que consistió en migrar una aplicación de escritorio del año 1999 a una aplicación web moderna.",
-			"img": "/clinicalLab",
-			"technologies": [
-				"ReactJs",
-				"NodeJs",
-				"MariaDB",
-				"Sequelize",
-				"Python"
-			],
-			"link": "Privado"
-		},
-		"7ecnoShop": {
-			"name": "7ecnoShop",
-			"description": "Proyecto realizado con la metodología scrum en forma grupal, simulando el ambiente laboral.",
-			"img": "/7ecnoShopImg",
-			"technologies": [
-				"NodeJs",
-				"CSS",
-				"MySQL",
-				"ExpressJS",
-				"JavaScript",
-				"HTML5",
-				"Sequelize"
-			],
-			"link": "https://github.com/Sonqo-Toconas/grupo_9_7ecnoShop"
-		},
-		"challenge-DH": {
-			"name": "Challenge DH",
-			"description": "Este proyecto simula ser una empresa multinacional de Recruiting de Recursos Humanos, para insertar a los aspirantes en puestos de trabajos.",
-			"img": "/challengeDHImg",
-			"technologies": [
-				"ReactJs",
-				"NodeJs",
-				"BootStrapCSS",
-				"MySQL",
-				"ExpressJS",
-				"Sequelize"
-			],
-			"link": "https://github.com/Sonqo-Toconas/challenge-DH"
-		},
-		"mercado-liebre": {
-			"name": "Mercado Liebre",
-			"description": "Un proyecto replicando el estilo de mercado libre responsive.",
-			"img": "/mercadoLiebreImg",
-			"technologies": [
-				"Git",
-				"HTML5",
-				"CSS",
-				"ExpressJS",
-				"JavaScript",
-				"NodeJs"
-			],
-			"link": "https://github.com/MaxNicolasCruz/Mercado_Liebre"
-		},
-		"tournament-simulator": {
-			"name": "Tournament Simulator",
-			"description": "Un juego para complementar mi aprendizaje con Python.",
-			"img": "/tournamentSimulatorImg",
-			"technologies": ["Python", "Tkinter"],
-			"link": "https://github.com/MaxNicolasCruz/Tournament_Simulator"
+		"title": "Proyectos",
+		"subtitle": "Una selección de los proyectos en los que he trabajado, integrando diseño, funcionalidad y rendimiento.",
+		"projects": {
+			"remiseria": {
+				"name": "Remiseria",
+				"description": "Es una red para proveedores de servicios de taxi y clientes para chatear, un proyecto personal para practicar mis habilidades en React y explorar algunas tecnologías nuevas.",
+				"img": "/remiseriaImg",
+				"technologies": [
+					"ReactJs",
+					"NodeJs",
+					"TailwindCSS",
+					"SocketIo",
+					"MySQL",
+					"JWT",
+					"axios",
+					"ExpressJS",
+					"Figma",
+					"GitHub",
+					"Sequelize"
+				],
+				"link": "https://github.com/MaxNicolasCruz/Project_Remiseria"
+			},
+			"Clinical-Lab": {
+				"name": "Clinical Lab",
+				"description": "Proyecto freelance que consistió en migrar una aplicación de escritorio del año 1999 a una aplicación web moderna.",
+				"img": "/clinicalLab",
+				"technologies": ["ReactJs", "NodeJs", "MariaDB", "Sequelize", "Python"],
+				"link": "Privado"
+			},
+			"7ecnoShop": {
+				"name": "7ecnoShop",
+				"description": "Proyecto realizado con la metodología scrum en forma grupal, simulando el ambiente laboral.",
+				"img": "/7ecnoShopImg",
+				"technologies": [
+					"NodeJs",
+					"CSS",
+					"MySQL",
+					"ExpressJS",
+					"JavaScript",
+					"HTML5",
+					"Sequelize"
+				],
+				"link": "https://github.com/Sonqo-Toconas/grupo_9_7ecnoShop"
+			},
+			"challenge-DH": {
+				"name": "Challenge DH",
+				"description": "Este proyecto simula ser una empresa multinacional de Recruiting de Recursos Humanos, para insertar a los aspirantes en puestos de trabajos.",
+				"img": "/challengeDHImg",
+				"technologies": [
+					"ReactJs",
+					"NodeJs",
+					"BootStrapCSS",
+					"MySQL",
+					"ExpressJS",
+					"Sequelize"
+				],
+				"link": "https://github.com/Sonqo-Toconas/challenge-DH"
+			},
+			"mercado-liebre": {
+				"name": "Mercado Liebre",
+				"description": "Un proyecto replicando el estilo de mercado libre responsive.",
+				"img": "/mercadoLiebreImg",
+				"technologies": [
+					"Git",
+					"HTML5",
+					"CSS",
+					"ExpressJS",
+					"JavaScript",
+					"NodeJs"
+				],
+				"link": "https://github.com/MaxNicolasCruz/Mercado_Liebre"
+			},
+			"tournament-simulator": {
+				"name": "Tournament Simulator",
+				"description": "Un juego para complementar mi aprendizaje con Python.",
+				"img": "/tournamentSimulatorImg",
+				"technologies": ["Python", "Tkinter"],
+				"link": "https://github.com/MaxNicolasCruz/Tournament_Simulator"
+			}
 		}
 	},
 	"aboutMeBox": {
-		"meTitle": "Yo",
+		"meTitle": "Sobre mi",
 		"meDescription": "Me gusta mucho aprender y desarrollar aplicaciones web. Me preocupo por dar un producto de calidad y con buenas practicas de programacion. Soy bueno trabajando en equipo, la dedicacion y actitud son mis principales motores.",
 		"educationTitle": "Educación",
 		"educationDescription": {
@@ -109,11 +112,15 @@
 				"duration": "04/2022 - 12/2024"
 			}
 		},
-		"meContact": "Contacto"
+		"skillsBox": {
+			"title": "Habilidades",
+			"frontEndTitle": "Front End",
+			"backEndTitle": "Back End",
+			"learningTitle": "Aprendizaje"
+		}
 	},
-	"skillsBox": {
-		"frontEndTitle": "Front End",
-		"backEndTitle": "Back End",
-		"learningTitle": "Aprendizaje"
+	"meContact": {
+		"title": "Contacto",
+		"subtitle": "Puedes contactarme a través de mis redes o enviarme un correo directamente"
 	}
 }

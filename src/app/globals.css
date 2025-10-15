@@ -1,18 +1,43 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@tailwind base; /* Incluye los estilos base de Tailwind (normalize, reset) */
+@tailwind components; /* Incluye los componentes prediseñados de Tailwind */
+@tailwind utilities; /* Incluye las utilidades de Tailwind */
 
-@import url("https://fonts.googleapis.com/css2?family=Mogra&display=swap");
+/* 🔹 Importación de fuente externa desde Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
 
 @layer utilities {
-	/* globals.css */
-
+	/* 🔹 Clase para ocultar la barra de scroll en diferentes navegadores */
 	.scrollbar-hide {
-		-ms-overflow-style: none; /* Oculta la barra de scroll en IE y Edge */
-		scrollbar-width: none; /* Oculta la barra de scroll en Firefox */
+		-ms-overflow-style: none; /* Oculta scrollbar en IE y Edge */
+		scrollbar-width: none; /* Oculta scrollbar en Firefox */
 	}
+
+	/* 🔹 Clase base para íconos, define tamaño y alineación */
 	.icon-style {
-		@apply w-8 h-8 inline-block align-middle; /* Tamaño y alineación */
-		vertical-align: middle; /* Compatibilidad extra */
+		@apply w-8 h-8 inline-block align-middle; /* Tamaño y alineación inline */
+		vertical-align: middle; /* Compatibilidad extra para alineación vertical */
+	}
+
+	/* 🔹 Texto con efecto de resplandor inicial */
+	.glowing-text {
+		text-shadow: 0px 0px 3px rgba(34, 220, 238, 0.5),
+			/* Sombra leve */ 0px 0px 3px rgba(34, 220, 238, 0.5); /* Sombra leve repetida para intensidad */
+	}
+
+	/* 🔹 Texto con resplandor activo/intensificado */
+	.glowing-text-active {
+		text-shadow: 0px 0px 10px rgba(34, 220, 238, 1),
+			/* Sombra más grande y brillante */ 0px 0px 10px rgba(34, 220, 238, 1); /* Sombra adicional para mayor efecto */
+	}
+
+	/* 🔹 Icono con efecto de resplandor mediante drop-shadow */
+	.glowing-icon {
+		filter: drop-shadow(0 0 0px #22dcee) /* Sombra inicial */
+			drop-shadow(0 0 1px #22dcee); /* Sombra adicional para el glow */
+	}
+
+	/* 🔹 Clase para aplicar perspectiva 3D a un contenedor */
+	.perspective {
+		perspective: 800px; /* Define la distancia de perspectiva para transformaciones 3D */
 	}
 }
